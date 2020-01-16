@@ -29,8 +29,8 @@ sim800l=SIM800L('/dev/serial0')
 #### send sms
 ```python
 sms="Hello there"
-#sim800l.send(dest.no,sms)
-sim800l.send('2547xxxxxxxx',sms)
+#sim800l.send_sms(dest.no,sms)
+sim800l.send_sms('2547xxxxxxxx',sms)
 ```
 #### read sms
 ```python
