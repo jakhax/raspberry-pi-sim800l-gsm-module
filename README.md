@@ -15,7 +15,7 @@
 ### Disable serial console
 We will start by disabling serial console to enable communication between the pi and sim800l via serial0 .
 
-Open the terminal on your pi and run `sudo rasp-config` 
+Open the terminal on your pi and run `sudo raspi-config` 
 Select Interfaces → Serial 
 Select No to the 1st prompt and Yes for the 2nd.
 
